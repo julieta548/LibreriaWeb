@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat';
+    letter-spacing: 0.03cm;
+    line-height: 1.6;
+}
+
+
+.cuerpo{
+    text-align: center;
+}
+
+.cabecera h1{
+    font-size: 80px;
+    width: 50%;
+    margin: auto; 
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 340px;
+    color: white;
+    font-weight: 100;
+}
+
+#example{
+    font-family: 'Montserrat';
+    position: relative;
+
+
+}
+
+section{
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.contenedor-imagen{
+    position: relative;
+
+}
+
+.cabecera{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#boton{
+    margin-bottom: 50px;
+}

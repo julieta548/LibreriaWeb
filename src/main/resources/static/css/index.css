@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.izquierda{
+    background: #FCD21D;
+    height: 100vh;
+    width: 50%;
+}
+
+.derecha{
+    background: url(/img/libros.jpg);
+    background-size: cover; 
+    background-position: center; 
+    width: 55%;
+    height: 100vh; 
+}
+
+#sec1{
+    display: flex;
+}
+
+h1{
+    font-size: 60px;
+    width: 50%;
+    margin: auto; 
+    margin-bottom: 40px;
+    margin-left: 80px;
+}
+
+.web{
+    color: white;
+}
+
+p{
+    font-size: 19px; 
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    margin-left: 80px;
+
+}
+
+a{
+    border: 3px solid white;
+    padding: 20px; 
+    text-decoration: none;
+    color: white;
+    border-radius: 30px; 
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 30px; 
+    margin-left: 80px; 
+}
+
+h6{
+    width: 50%;
+    margin: auto; 
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+#sec3{
+    font-family: 'Montserrat';
+    
+}
+
+section{
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+section h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-left: 80px;
+}
+
+section p{
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-left: 80px;
+}
+
+section img{
+    height: 60%;
+    margin-right: 30px;
+    
+}
+
+section:nth-child(2){
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+
+section:nth-child(3){
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+
+section:nth-child(4){
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+
+.ingresar{
+    border: 5px solid white;
+    padding: 20px; 
+    text-decoration: none;
+    color: white;
+    border-radius: 30px; 
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 30px; 
+    margin-left: 80px; 
+}

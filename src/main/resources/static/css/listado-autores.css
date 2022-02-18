@@ -1,0 +1,37 @@
+.cabecera h1{
+    font-size: 80px;
+    width: 50%;
+    margin: auto; 
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 340px;
+    color: white;
+    font-weight: 100;
+}
+
+#example{
+    font-family: 'Montserrat';
+    position: relative;
+
+
+}
+
+section{
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-imagen{
+    position: relative;
+
+}
+
+.cabecera{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#botonCrear{
+    margin-left: 600px;
+}
